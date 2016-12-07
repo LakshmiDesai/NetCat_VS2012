@@ -1,0 +1,96 @@
+﻿Build started 11/18/2016 1:40:30 AM.
+     1>Project "C:\Users\tom\Desktop\NetCat\NetCat.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt doexec.c getopt.c netcat.c
+         netcat.c
+     1>c:\program files\microsoft visual studio 11.0\vc\include\errno.h(92): warning C4005: 'EADDRINUSE' : macro redefinition
+                 c:\users\tom\desktop\netcat\netcat.c(93) : see previous definition of 'EADDRINUSE'
+     1>c:\program files\microsoft visual studio 11.0\vc\include\errno.h(99): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 c:\users\tom\desktop\netcat\netcat.c(95) : see previous definition of 'ECONNREFUSED'
+     1>c:\program files\microsoft visual studio 11.0\vc\include\errno.h(130): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 c:\users\tom\desktop\netcat\netcat.c(94) : see previous definition of 'ETIMEDOUT'
+     1>c:\users\tom\desktop\netcat\netcat.c(369): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(881) : see declaration of '_sleep'
+     1>c:\users\tom\desktop\netcat\netcat.c(490): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strcmpi. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(248) : see declaration of 'strcmpi'
+     1>c:\users\tom\desktop\netcat\netcat.c(540): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\tom\desktop\netcat\netcat.c(552): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\tom\desktop\netcat\netcat.c(556): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\tom\desktop\netcat\netcat.c(574): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\tom\desktop\netcat\netcat.c(584): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\tom\desktop\netcat\netcat.c(641): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\tom\desktop\netcat\netcat.c(660): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\tom\desktop\netcat\netcat.c(682): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\tom\desktop\netcat\netcat.c(817): warning C4996: 'dup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _dup. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(307) : see declaration of 'dup'
+     1>c:\users\tom\desktop\netcat\netcat.c(857): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(881) : see declaration of '_sleep'
+     1>c:\users\tom\desktop\netcat\netcat.c(1012): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\tom\desktop\netcat\netcat.c(1014): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\tom\desktop\netcat\netcat.c(1016): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\tom\desktop\netcat\netcat.c(1017): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\tom\desktop\netcat\netcat.c(1117): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\tom\desktop\netcat\netcat.c(1129): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\tom\desktop\netcat\netcat.c(1183): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(881) : see declaration of '_sleep'
+     1>c:\users\tom\desktop\netcat\netcat.c(1282): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\tom\desktop\netcat\netcat.c(1305): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(321) : see declaration of 'write'
+     1>c:\users\tom\desktop\netcat\netcat.c(1422): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(305) : see declaration of 'close'
+     1>c:\users\tom\desktop\netcat\netcat.c(1427): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(881) : see declaration of '_sleep'
+     1>c:\users\tom\desktop\netcat\netcat.c(1554): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\conio.h(133) : see declaration of 'kbhit'
+     1>c:\users\tom\desktop\netcat\netcat.c(1556): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(261) : see declaration of 'gets'
+     1>c:\users\tom\desktop\netcat\netcat.c(1557): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\tom\desktop\netcat\netcat.c(1565): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(305) : see declaration of 'close'
+     1>c:\users\tom\desktop\netcat\netcat.c(1570): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(316) : see declaration of 'read'
+     1>c:\users\tom\desktop\netcat\netcat.c(1572): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(305) : see declaration of 'close'
+     1>c:\users\tom\desktop\netcat\netcat.c(1580): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(305) : see declaration of 'close'
+     1>c:\users\tom\desktop\netcat\netcat.c(1602): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(321) : see declaration of 'write'
+     1>c:\users\tom\desktop\netcat\netcat.c(1631): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(881) : see declaration of '_sleep'
+     1>c:\users\tom\desktop\netcat\netcat.c(1723): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(316) : see declaration of 'read'
+     1>c:\users\tom\desktop\netcat\netcat.c(1865): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\tom\desktop\netcat\netcat.c(1876): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(315) : see declaration of 'open'
+     1>c:\users\tom\desktop\netcat\netcat.c(2016): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(881) : see declaration of '_sleep'
+         getopt.c
+         doexec.c
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\NetCat.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\NetCat.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\NetCat.lib" /MACHINE:X86 /SAFESEH .\Debug\doexec.obj
+         .\Debug\getopt.obj
+         .\Debug\netcat.obj
+     1>doexec.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         NetCat.vcxproj -> C:\Users\tom\Desktop\NetCat\.\Debug\NetCat.exe
+     1>Done Building Project "C:\Users\tom\Desktop\NetCat\NetCat.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.57
